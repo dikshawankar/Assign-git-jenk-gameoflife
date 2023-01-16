@@ -10,8 +10,8 @@ pipeline {
                                      }
                              }
                        tools {
-                                 maven 'maven3.8.7'
-                                 jdk 'java1.8.0'
+                                 maven'maven3.8.7'
+                                 jdk'java1.8.0'
                              }
                        environment{
                                        PATH = "/root/maven/apache-maven-3.8.7/bin:$PATH"
