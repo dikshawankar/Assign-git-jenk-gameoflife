@@ -11,7 +11,7 @@ pipeline {
                              }
                       
                        environment{
-                                       PATH ="/root/apache-maven-3.8.7/bin:$PATH"
+                                       PATH="/root/apache-maven-3.8.7/bin:$PATH"
                                    }   
                                               steps{
                                                             git 'https://github.com/dishu14/game-of-life.git'    
