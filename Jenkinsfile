@@ -14,7 +14,7 @@ pipeline {
                                  jdk 'java1.8'
                              }
                        environment{
-                                       PATH = /root/maven/apache-maven-3.8.7/bin:$PATH'
+                                       PATH = "/root/maven/apache-maven-3.8.7/bin:$PATH"
                                    }   
                                               steps{
                                                             git 'https://github.com/dishu14/game-of-life.git'    
